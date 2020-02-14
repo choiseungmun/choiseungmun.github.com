@@ -1,8 +1,15 @@
 title: Choiseungmun.GitHub.com
-description: repository for myself
-google_analytics: 
+description: 최승문의 개인블로그
+google_analytics:
 show_downloads: true
 theme: jekyll-theme-slate
 
 gems:
   - jekyll-mentions
+
+category_archive:
+  type: liquid
+  path: /categories
+tag_archive:
+  type: liquid
+  path: /tags/
